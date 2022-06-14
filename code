@@ -1,8 +1,8 @@
-class NitroBlock {
+class Blokkit {
     getInfo() {
         return {
-            "id": "NitroBlock",
-            "name": "NitroBlock",
+            "id": "Blokkit",
+            "name": "Blokkit",
             "blocks": [{
                     "opcode": "substringy",
                     "blockType": "reporter",
@@ -27,4 +27,4 @@ class NitroBlock {
         }
     };
 }
-Scratch.extensions.register(new NitroBlock());
+Scratch.extensions.register(new Blokkit());
